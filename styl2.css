@@ -1,0 +1,88 @@
+@media only screen and (max-width: 600px) {
+    header{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    footer{
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+
+
+a{
+    color: blue;
+    font-size: 18px;
+}
+a:hover{
+    color: rgb(201, 97, 0);
+}
+
+button{
+    border-radius: 20px;
+    border: 4px solid blue;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    position: relative;
+    left: 90%;
+}
+
+body{
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+*{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgba(197, 247, 242, 0.801);
+}
+
+span{
+    color: rgba(190, 50, 22, 0.9);
+}
+
+ul{
+    margin: 7px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+ul > li {
+    margin-bottom: 5px;
+}
+
+ol{
+    margin-bottom: 5px;
+}
+
+ol > li{
+    margin-bottom: 5px;
+}
+
+ol > li:hover{
+    background-color: wheat;
+    color: black;
+}
+
+main p{
+    word-spacing: 5px;
+}
+
+footer{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
